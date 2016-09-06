@@ -4,8 +4,7 @@ import javax.swing.JOptionPane;
  * A simple second day demo program!
  * 
  * @author David Kataja Jr.
- * @version Sep 6 2016
- * CIS 1500
+ * @version Sep 6 2016 CIS 1500
  */
 
 public class DayTwo {
