@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class ScannerDemo2
+	{
+			public static void main(String [] args)
+		{
+				System.out.println("Give me a number: ");
+				Scanner scan = new Scanner(System.in);
+				int num = scan.nextInt();				
+		}
+
+
+import javax.swing.JOptionPane;
+
+
+public class DemoDialogInput {
+	
+	public static void main(String [] args){
+		
+		String s = JOptionPane.showInputDialog("Enter a value:");
+		int num = Integer.parseInt(s);
+		int twice = num*2;
+		JOptionPane.showMessageDialog(null, "You just entered: " + s);
+		JOptionPane.showMessageDialog(null, "Double " + num + " equals: " + twice);
+
+
